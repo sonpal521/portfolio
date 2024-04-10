@@ -2,43 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Target all elements */
 * {
   scrollbar-width: auto;
- 
 }
 
+/* Track - the area the scrollbar slides on */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-@media screen and (min-width: 966px) {
-  ::-webkit-scrollbar,
-  .scroller {
-    width: 15px;
-   
-    background-color: #f1f1f1;
-  }
-}
-/* Track - the area the scrollbar slides on */ */
-::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Color of the track */
+  background-color: #f1f1f1; /* Color of the track */
 }
 
 /* Handle - the draggable part of the scrollbar */
 ::-webkit-scrollbar-thumb {
-  background: #888; /* Color of the handle */
+  background-color: #888; /* Color of the handle */
   border-radius: 5px; /* Rounded corners of the handle */
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #152a60; /* Color of the handle on hover */
+  background-color: #152a60; /* Color of the handle on hover */
 }
-::-webkit-scrollbar-thumb {
-  background-color: #888;
-  border-radius: 10px;
+
+@media screen and (min-width: 966px) {
+  /* Target scrollbar and custom class .scroller */
+  ::-webkit-scrollbar,
+  .scroller {
+    width: 15px; /* Width of the scrollbar */
+    background-color: #f1f1f1; /* Background color of the scrollbar */
+  }
 }
 
 body {
