@@ -1,0 +1,54 @@
+{
+    "autoPlay": true,
+    "background": {
+      "color": {
+        "value": "#000000"
+      },
+      "image": "",
+      "position": "50% 50%",
+      "repeat": "no-repeat",
+      "size": "cover"
+    },
+    "fps": 60,
+    "particles": {
+      "color": {
+        "value": "#ffffff"
+      },
+      "links": {
+        "color": "#ffffff",
+        "distance": 150,
+        "enable": true,
+        "opacity": 0.5,
+        "width": 1
+      },
+      "move": {
+        "direction": "none",
+        "enable": true,
+        "outModes": {
+          "default": "out",
+          "bounce": "out"
+        },
+        "random": false,
+        "speed": 2,
+        "straight": false
+      },
+      "number": {
+        "density": {
+          "enable": true,
+          "value": 100
+        },
+        "value": 80
+      },
+      "opacity": {
+        "value": 0.5
+      },
+      "shape": {
+        "type": "circle"
+      },
+      "size": {
+        "value": 3,
+        "random": true
+      }
+    },
+    "url": ""
+  }
