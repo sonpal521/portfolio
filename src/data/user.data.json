@@ -161,7 +161,7 @@
     {
       "title": "Ecommerce Website",
       "description": "Secure user login and registration processes, implementing JWT tokens to ensure data integrity and privacy.Integrated the FakeStore API to access sample product data, enabling the product listings, cart functionalities, within the ecommerce project.",
-      "image": "https://i.ibb.co/FmwkQ6Y/eco1.png",
+      "image": "https://i.ibb.co/nCHhBrk/h1-1.png",
       "isPersonal": true,
       "isPublic": true,
       "codeLink": "https://github.com/sonpal521/eco-shop",
@@ -190,7 +190,7 @@
     {
       "title": "Movie Search Website",
       "description": "A simple Movie Search website . In this website use debounce functionality",
-      "image": "https://i.ibb.co/LvfSpK2/ms.jpg",
+      "image": "https://i.ibb.co/P6L6zB9/h1-2.jpg",
       "codeLink": "https://github.com/sonpal521/MovieSearch",
       "liveLink": "https://movie-search-two-delta.vercel.app/",
       "isPersonal": true,
@@ -200,7 +200,7 @@
     {
       "title": "Movie Booking System App",
       "description": "Shows the favourite anime, movie, and TV Series of all the contributors",
-      "image": "https://i.ibb.co/t8f6VB8/mbatt.jpg",
+      "image": "https://i.ibb.co/sCr5pHb/h1-1.jpg",
       "codeLink": "https://github.com/sonpal521/movie_booking",
       "liveLink": "https://movie-booking-lime.vercel.app/",
       "isPersonal": true,
